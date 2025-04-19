@@ -1,6 +1,10 @@
-## 𝚆𝚎𝚕𝚌𝚘𝚖𝚎
+<div style="position: relative; display: inline-block; text-align: center;">
+  <img src="animatinggif.gif" alt="Screenshot" style="width:500px;">
+  <div style="position: absolute; top: 20px; left: 20px; color: white; background: rgba(0,0,0,0.5); padding: 5px 10px; border-radius: 5px;">
+    𝚆𝚎𝚕𝚌𝚘𝚖𝚎
+  </div>
+</div>
 
-![nothing](animatinggif.gif)
 
 <!--
 **TR4IS/TR4IS** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
