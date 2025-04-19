@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-animatedgif.gif
+animatinggif.gif
 
 <!--
 **TR4IS/TR4IS** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
