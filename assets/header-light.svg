@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="230" viewBox="0 0 860 230" role="img" aria-label="Ziyad Almalki - Information Systems student and software developer">
+  <title>Ziyad Almalki</title>
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'Cascadia Code', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+    .f { transform-box: fill-box; transform-origin: center; }
+    .rcpt { animation: rcpt 9s infinite; opacity: 0; }
+    @keyframes rcpt { 0%,62% { opacity: 0; transform: translateY(6px); } 70%,92% { opacity: 1; transform: translateY(0); } 100% { opacity: 0; } }
+    .caret { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .type { animation: type 9s steps(34) infinite; }
+    @keyframes type { 0% { width: 0; } 25%,100% { width: 330px; } }
+    
+    .f0 { animation: m0 9s cubic-bezier(.5,0,.3,1) infinite; }
+    @keyframes m0 {
+      0%,6% { transform: translate(0,0) rotate(-14deg); opacity: 1; }
+      22% { transform: translate(280px,114px) rotate(0deg) scale(.55); opacity: 1; }
+      24%,92% { transform: translate(280px,128px) scale(.3); opacity: 0; }
+      100% { transform: translate(0,0) rotate(-14deg); opacity: 0; }
+    }
+    .f1 { animation: m1 9s cubic-bezier(.5,0,.3,1) infinite; }
+    @keyframes m1 {
+      0%,13% { transform: translate(0,0) rotate(10deg); opacity: 1; }
+      29% { transform: translate(-52px,130px) rotate(0deg) scale(.55); opacity: 1; }
+      31%,92% { transform: translate(-52px,144px) scale(.3); opacity: 0; }
+      100% { transform: translate(0,0) rotate(10deg); opacity: 0; }
+    }
+    .f2 { animation: m2 9s cubic-bezier(.5,0,.3,1) infinite; }
+    @keyframes m2 {
+      0%,20% { transform: translate(0,0) rotate(-6deg); opacity: 1; }
+      36% { transform: translate(-20px,102px) rotate(0deg) scale(.55); opacity: 1; }
+      38%,92% { transform: translate(-20px,116px) scale(.3); opacity: 0; }
+      100% { transform: translate(0,0) rotate(-6deg); opacity: 0; }
+    }
+    .f3 { animation: m3 9s cubic-bezier(.5,0,.3,1) infinite; }
+    @keyframes m3 {
+      0%,27% { transform: translate(0,0) rotate(16deg); opacity: 1; }
+      43% { transform: translate(10px,124px) rotate(0deg) scale(.55); opacity: 1; }
+      45%,92% { transform: translate(10px,138px) scale(.3); opacity: 0; }
+      100% { transform: translate(0,0) rotate(16deg); opacity: 0; }
+    }
+    .f4 { animation: m4 9s cubic-bezier(.5,0,.3,1) infinite; }
+    @keyframes m4 {
+      0%,34% { transform: translate(0,0) rotate(8deg); opacity: 1; }
+      50% { transform: translate(105px,60px) rotate(0deg) scale(.55); opacity: 1; }
+      52%,92% { transform: translate(105px,74px) scale(.3); opacity: 0; }
+      100% { transform: translate(0,0) rotate(8deg); opacity: 0; }
+    }
+    .f5 { animation: m5 9s cubic-bezier(.5,0,.3,1) infinite; }
+    @keyframes m5 {
+      0%,41% { transform: translate(0,0) rotate(-18deg); opacity: 1; }
+      57% { transform: translate(-185px,52px) rotate(0deg) scale(.55); opacity: 1; }
+      59%,92% { transform: translate(-185px,66px) scale(.3); opacity: 0; }
+      100% { transform: translate(0,0) rotate(-18deg); opacity: 0; }
+    }
+    .d0 { transform-box: fill-box; transform-origin: center bottom; animation: p0 9s infinite; }    @keyframes p0 { 0%,100% { transform: scale(1); } 29% { transform: scale(1); } 31% { transform: scale(1.08); } 34% { transform: scale(1); } 57% { transform: scale(1); } 59% { transform: scale(1.08); } 62% { transform: scale(1); } }
+    .d1 { transform-box: fill-box; transform-origin: center bottom; animation: p1 9s infinite; }    @keyframes p1 { 0%,100% { transform: scale(1); } 36% { transform: scale(1); } 38% { transform: scale(1.08); } 41% { transform: scale(1); } 50% { transform: scale(1); } 52% { transform: scale(1.08); } 55% { transform: scale(1); } }
+    .d2 { transform-box: fill-box; transform-origin: center bottom; animation: p2 9s infinite; }    @keyframes p2 { 0%,100% { transform: scale(1); } 22% { transform: scale(1); } 24% { transform: scale(1.08); } 27% { transform: scale(1); } 43% { transform: scale(1); } 45% { transform: scale(1.08); } 48% { transform: scale(1); } }
+  </style>
+  <text x="24" y="70" font-size="40" font-weight="700" fill="#1f2328">Ziyad Almalki</text>
+  <text x="26" y="102" font-size="16.5" fill="#59636e">Information Systems @ King Saud University</text>
+  <text x="26" y="126" font-size="16.5" fill="#59636e">Software developer · Rust · Node.js · Docker</text>
+  <clipPath id="tc"><rect class="type" x="26" y="146" width="330" height="30"/></clipPath>
+  <text x="26" y="166" font-size="15" fill="#1f3a68" class="mono" clip-path="url(#tc)">$ open-to co-op --riyadh --dec-2026</text>
+  
+  <g class="d0">
+    <path d="M520,148 h26 l6,7 h48 v41 h-80 z" fill="#9fbbe3"/>
+    <rect x="520" y="160" width="80" height="36" rx="4" fill="#d6e4f7" stroke="#9fbbe3" stroke-width="1.5"/>
+    <text x="560" y="183" font-size="12" fill="#1f2328" text-anchor="middle" class="mono">docs/</text>
+  </g>
+  <g class="d1">
+    <path d="M640,148 h26 l6,7 h48 v41 h-80 z" fill="#9fbbe3"/>
+    <rect x="640" y="160" width="80" height="36" rx="4" fill="#d6e4f7" stroke="#9fbbe3" stroke-width="1.5"/>
+    <text x="680" y="183" font-size="12" fill="#1f2328" text-anchor="middle" class="mono">images/</text>
+  </g>
+  <g class="d2">
+    <path d="M760,148 h26 l6,7 h48 v41 h-80 z" fill="#9fbbe3"/>
+    <rect x="760" y="160" width="80" height="36" rx="4" fill="#d6e4f7" stroke="#9fbbe3" stroke-width="1.5"/>
+    <text x="800" y="183" font-size="12" fill="#1f2328" text-anchor="middle" class="mono">code/</text>
+  </g>
+  
+  <g class="f f0">
+    <path d="M502,15 h26 l10,10 v36 h-36 z" fill="#ffffff" stroke="#c9d1d9" stroke-width="1.5"/>
+    <path d="M528,15 v10 h10" fill="none" stroke="#c9d1d9" stroke-width="1.5"/>
+    <rect x="506" y="41" width="28" height="12" rx="3" fill="#d1242f"/>
+    <text x="520" y="50.5" font-size="8.5" font-weight="700" fill="#fff" text-anchor="middle" class="mono">.rs</text>
+  </g>
+  <g class="f f1">
+    <path d="M594,-1 h26 l10,10 v36 h-36 z" fill="#ffffff" stroke="#c9d1d9" stroke-width="1.5"/>
+    <path d="M620,-1 v10 h10" fill="none" stroke="#c9d1d9" stroke-width="1.5"/>
+    <rect x="598" y="25" width="28" height="12" rx="3" fill="#0969da"/>
+    <text x="612" y="34.5" font-size="8.5" font-weight="700" fill="#fff" text-anchor="middle" class="mono">.pdf</text>
+  </g>
+  <g class="f f2">
+    <path d="M682,27 h26 l10,10 v36 h-36 z" fill="#ffffff" stroke="#c9d1d9" stroke-width="1.5"/>
+    <path d="M708,27 v10 h10" fill="none" stroke="#c9d1d9" stroke-width="1.5"/>
+    <rect x="686" y="53" width="28" height="12" rx="3" fill="#8250df"/>
+    <text x="700" y="62.5" font-size="8.5" font-weight="700" fill="#fff" text-anchor="middle" class="mono">.png</text>
+  </g>
+  <g class="f f3">
+    <path d="M772,5 h26 l10,10 v36 h-36 z" fill="#ffffff" stroke="#c9d1d9" stroke-width="1.5"/>
+    <path d="M798,5 v10 h10" fill="none" stroke="#c9d1d9" stroke-width="1.5"/>
+    <rect x="776" y="31" width="28" height="12" rx="3" fill="#bf8700"/>
+    <text x="790" y="40.5" font-size="8.5" font-weight="700" fill="#fff" text-anchor="middle" class="mono">.js</text>
+  </g>
+  <g class="f f4">
+    <path d="M557,69 h26 l10,10 v36 h-36 z" fill="#ffffff" stroke="#c9d1d9" stroke-width="1.5"/>
+    <path d="M583,69 v10 h10" fill="none" stroke="#c9d1d9" stroke-width="1.5"/>
+    <rect x="561" y="95" width="28" height="12" rx="3" fill="#1a7f37"/>
+    <text x="575" y="104.5" font-size="8.5" font-weight="700" fill="#fff" text-anchor="middle" class="mono">.jpg</text>
+  </g>
+  <g class="f f5">
+    <path d="M727,77 h26 l10,10 v36 h-36 z" fill="#ffffff" stroke="#c9d1d9" stroke-width="1.5"/>
+    <path d="M753,77 v10 h10" fill="none" stroke="#c9d1d9" stroke-width="1.5"/>
+    <rect x="731" y="103" width="28" height="12" rx="3" fill="#cf222e"/>
+    <text x="745" y="112.5" font-size="8.5" font-weight="700" fill="#fff" text-anchor="middle" class="mono">.docx</text>
+  </g>
+  <g class="rcpt">
+    <text x="680" y="222" font-size="13" fill="#1a7f37" text-anchor="middle" class="mono">✓ 6 files sorted · 0 deleted · undo ready</text>
+  </g>
+</svg>

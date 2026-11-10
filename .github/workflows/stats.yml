@@ -1,0 +1,37 @@
+name: Update live stats
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # every day, 06:00 Riyadh time
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Count Organize for Me installer downloads
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          count=$(gh api repos/TR4IS/organize-for-me/releases --paginate \
+            --jq '[.[].assets[] | select(.name|endswith(".exe")) | .download_count] | add' \
+            | awk '{s+=$1} END {print s}')
+          pretty=$(python3 -c "print(f'{int($count):,}')")
+          echo "Installer downloads: $pretty"
+          sed -i -E "s#<!--downloads-->[^<]*<!--/downloads-->#<!--downloads-->${pretty}<!--/downloads-->#" README.md
+          if ! git diff --quiet; then
+            sed -i -E "s#<!--updated-->[^<]*<!--/updated-->#<!--updated-->Stats last updated: $(date -u +%F)<!--/updated-->#" README.md
+          fi
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet; then echo "No change"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Update live download count"
+          git push
