@@ -15,6 +15,7 @@ Information Systems student at **King Saud University** (GPA 4.3/5) and a develo
 |---|---|---|
 | [**Organize for Me**](https://github.com/TR4IS/organize-for-me) | Desktop file organizer that never deletes or overwrites a file, with full undo. **<!--downloads-->1,474<!--/downloads--> installer downloads** <sub>(live count, updated daily by a GitHub Action)</sub>. [Website](https://n3trunner.dev/organizeforme) | Rust, Tauri, GitHub Actions |
 | [**Plate**](https://github.com/TR4IS/plate) | Snap a meal and an AI estimates the macros; workout tracker that works offline. Multi-user, three switchable AI providers. [Live demo](https://n3trunner.dev/plate) | Node.js, SQLite, Docker |
+| [**Replay Buffer**](https://github.com/TR4IS/replay-buffer) | ShadowPlay-style "save the last 5 minutes" recorder. The whole video path runs on the GPU (Desktop Duplication, a shader pass, NVENC), 3x lighter than my first version, audio synced to about 10 ms | Rust, C, Direct3D 11, NVENC |
 | [**ScamGuard**](https://github.com/TR4IS/ScamGaurdBot) | Discord bot that removes scam messages and images using weighted rules, image hashing and optional AI | Node.js, LLM APIs, Docker |
 | [**Windows Optimizer**](https://github.com/TR4IS/WindowsOptimizer) | Open-source tool that reduces background load and latency on Windows | Python |
 
